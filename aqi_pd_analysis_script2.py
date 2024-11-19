@@ -3,7 +3,7 @@ import sqlalchemy
 from sqlalchemy import create_engine
 
 
-connection_string = 'mysql+pymysql://root:Brazuka17!@localhost/aqi_epa_gov'
+connection_string = 'mysql+pymysql://root:[password]@localhost/[table_name]'
 engine = create_engine(connection_string)
 
 query = '''SELECT * FROM aqi_data'''
