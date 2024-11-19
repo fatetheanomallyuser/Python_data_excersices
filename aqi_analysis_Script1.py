@@ -5,10 +5,10 @@ import mysql.connector
 
 connection = mysql.connector.connect(
 
-    host = "127.0.0.1",
-    user = 'root',
-    password = "Brazuka17!",
-    database = "aqi_epa_gov",
+    host = "[enter_host]",
+    user = '[enter_user]',
+    password = ["Password"],
+    database = ["DB_Name"],
 
 )
 
